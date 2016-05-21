@@ -1,0 +1,21 @@
+{
+  "title": "Greasemonkey Script Preferences Viewer",
+  "name": "Greasemonkey Script Preferences Viewer",
+  "version": "1.0",
+  "description": "Supply a GUI for viewing Greasemonkey script preferences that are saved with GM_SetValue.",
+  "main": "index.js",
+  "author": "shyangs",
+  "engines": {
+    "firefox": ">=39.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+	"preferences": [{
+    "label": "Show",
+    "name": "GSPV",
+    "title": "Greasemonkey Script Preferences",
+    "type": "control"
+	}]
+}

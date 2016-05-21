@@ -1,0 +1,20 @@
+Greasemonkey Script Preferences Viewer (GSPV) is a Firefox extension.
+Copyright (C) 2016 Yu-Hsiang LIN (shyangs)
+
+GSPV is Open Source, released under the terms of the MIT license;
+see the LICENSE.MIT.
+This applies to all source code files.
+
+Individual files may have different licenses.
+
+GSPV contains code derived from 
+html-escaper ( https://github.com/WebReflection/html-escaper ), reused under the terms of the MIT; see LICENSE.MIT.
+
+GSPV contains code derived from 
+List.js ( http://www.listjs.com/ ), reused under the terms of the MIT; see LICENSE.MIT.
+
+GSPV contains code derived from 
+Pure.css ( http://purecss.io/ ), reused under the terms of the BSD; see LICENSE.BSD.
+
+GSPV contains code derived from 
+Font Awesome ( http://fontawesome.io ), reused under the terms of the MIT; see LICENSE.MIT. The webfont file(fontawesome-webfont.woff2) is licensed under the SIL Open Font License; see LICENSE.OFL.

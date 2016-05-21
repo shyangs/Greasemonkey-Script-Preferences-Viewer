@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- "Greasemonkey Script Preferences Viewer" is licensed under the MIT license. See the LICENSE file. -->
+<meta charset="utf-8">
+<link rel="stylesheet" href="thirdparty/font-awesome.min.css" />
+<link rel="stylesheet" href="thirdparty/pure-min.css" />
+<style type="text/css">
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fa {
+	cursor: pointer;
+	margin-left: 0.4rem;
+	margin-right: 0.4rem;
+}
+
+.pure-table {
+	width: 96%;
+	margin-top: 1.5rem;
+	text-align: left;
+}
+
+td:not(:last-child) {
+	width: 30%;
+	max-width: 0;
+	overflow: hidden !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+th:last-child, td:last-child {
+  width: 10%;
+}
+
+</style>
+</head>
+<body>
+<h2 class="center">Greasemonkey Script Preferences Viewer</h2>
+
+<table id="hacker-list" class="pure-table pure-table-bordered pure-table-striped center">
+<thead>
+<tr><th title="Greasemonkey script name">Name</th><th title="the first argument of GM_setValue">Key</th><th title="the second argument of GM_setValue">Value</th><th class="center">Function</th></tr>
+</thead>
+<tbody class="list-container">
+</tbody>
+</table>
+
+<table style="display:none;">
+    <!-- A template element is needed when list is empty. -->
+    <tr id="hacker-item" data-id="0">
+       <td class="name title-name" title=""></td>
+			 <td class="key"></td>
+			 <td class="value title-value" title=""></td>
+			 <td class="function center"><i class="fa fa-copy fa-lg" title="Copy"></i></td>
+    </tr>
+</table>
+
+</body>
+</html>
