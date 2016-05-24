@@ -20,7 +20,7 @@ let tableData = function(){
 
 	let arr = [];
 	let scripts = gm.GM_util.getService().config.scripts;
-	let htmlentities = require('data/thirdparty/html');
+	let htmlentities = require('./data/thirdparty/html');
 	let index = 0;
 
 	for(let ii = 0, mm = scripts.length; ii<mm; ii++){

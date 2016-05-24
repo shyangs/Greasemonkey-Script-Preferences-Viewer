@@ -1,7 +1,7 @@
 {
   "title": "Greasemonkey Script Preferences Viewer",
-  "name": "Greasemonkey Script Preferences Viewer",
-  "version": "1.0",
+  "name": "gspv",
+  "version": "1.0.0",
   "description": "Supply a GUI for viewing Greasemonkey script preferences that are saved with GM_SetValue.",
   "main": "index.js",
   "author": "shyangs",

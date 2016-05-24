@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
-<Description about="urn:mozilla:install-manifest">
-	<em:id>GSPV@shyangs</em:id>
-	<em:type>2</em:type>
-	<em:bootstrap>true</em:bootstrap>
-	<em:unpack>false</em:unpack>
-	<em:version>1.0</em:version>
-	<em:name>Greasemonkey Script Preferences Viewer</em:name>
-	<em:description>Supply a GUI for viewing Greasemonkey script preferences that are saved with GM_SetValue.</em:description>
-	<em:creator>shyangs</em:creator>
-	<em:optionsURL>data:text/xml,&lt;placeholder/&gt;</em:optionsURL>
-	<em:optionsType>2</em:optionsType><!-- Options are displayed inside the Add-on Manager -->
+    <Description about="urn:mozilla:install-manifest">
+          <em:id>@gspv</em:id>
+          <em:type>2</em:type>
+          <em:bootstrap>true</em:bootstrap>
+          <em:unpack>false</em:unpack>
+          <em:version>1.0.0</em:version>
+          <em:name>Greasemonkey Script Preferences Viewer</em:name>
+          <em:description>Supply a GUI for viewing Greasemonkey script preferences that are saved with GM_SetValue.</em:description>
+          <em:creator>shyangs</em:creator>
+          <em:optionsURL>data:text/xml,&lt;placeholder/&gt;</em:optionsURL>
+          <em:optionsType>2</em:optionsType>
 
-	<em:targetApplication>
-		<Description>
-			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-			<em:minVersion>39.0a1</em:minVersion>
-			<em:maxVersion>49.*</em:maxVersion>
-		</Description>
-	</em:targetApplication>
-
+          <em:targetApplication>
+            <Description>
+              <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+              <em:minVersion>39.0a1</em:minVersion>
+              <em:maxVersion>*</em:maxVersion>
 </Description>
+</em:targetApplication>
+
+
+    </Description>
+
 </RDF>
